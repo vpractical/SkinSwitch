@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/a"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:textColor="@color/background"
+        />
+
+    <Button
+        android:id="@+id/btn_main_tob"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/title"
+        />
+
+    <Button
+        android:id="@+id/btn_main_skin_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="换肤"
+        android:background="@color/background"
+        />
+
+    <CheckBox
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="60"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="30"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/a"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>
