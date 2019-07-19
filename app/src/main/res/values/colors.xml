@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="background">#30ff0000</color>
+    <!--toolBar-->
+    <color name="colorPrimary">#33aaff</color>
+    <!--状态栏(style同时设置底部栏颜色)-->
+    <color name="colorPrimaryDark">#33aaff</color>
+    <!-- 文字正常主色 -->
+    <color name="colorAccent">#666666</color>
+
+    <color name="desc">#ff0000</color>
+    <color name="nav_bg">#33aaff</color>
 </resources>

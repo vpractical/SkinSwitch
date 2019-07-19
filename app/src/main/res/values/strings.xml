@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">SkinSwitch</string>
-    <string name="title">按钮甲</string>
+    <string name="app_name">换肤demo</string>
+    <string name="description2">控件描述</string>
+    <string name="description">控件描述123</string>
+
+    <string name="typeface"/>
+    <string name="typeface2"/>
 </resources>

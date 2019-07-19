@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--toolBar-->
+    <color name="colorPrimary">#998855</color>
+    <!--状态栏(style同时设置底部栏颜色)-->
+    <color name="colorPrimaryDark">#998855</color>
+    <!-- 文字正常主色 -->
+    <color name="colorAccent">#aa26ff</color>
+    <color name="desc">#11ff50</color>
+    <color name="nav_bg">#998855</color>
+</resources>
