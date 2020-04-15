@@ -15,7 +15,7 @@ public class SkinThemeUtil {
     /**
      * 获取attr中属性的id,获取这个id后再去SkinResource中加载皮肤包或默认包的值
      */
-    public static int[] getAttrId(Context context, int[] attrs) {
+    public static int[]  getAttrId(Context context, int[] attrs) {
         int[] resIds = new int[attrs.length];
         TypedArray a = context.obtainStyledAttributes(attrs);
         for (int i = 0; i < attrs.length; i++) {
